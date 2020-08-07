@@ -37,7 +37,11 @@ namespace ReachMyRainbow___New
             soundPlayer.Play();
 
         }
-
+        /// <summary>
+        ///   This will open the CREDITS form 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonCredits_Click(object sender, EventArgs e)
         {
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
