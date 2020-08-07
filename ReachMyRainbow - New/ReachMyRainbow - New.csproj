@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F28BEA13-F91F-4CFA-A0A8-7A1CF6298C86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ReachMyRainbow___New</RootNamespace>
+    <AssemblyName>ReachMyRainbow - New</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCredits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCredits.Designer.cs">
+      <DependentUpon>FormCredits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStartMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStartMenu.Designer.cs">
+      <DependentUpon>FormStartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCredits.resx">
+      <DependentUpon>FormCredits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStartMenu.resx">
+      <DependentUpon>FormStartMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title Screen - No Buttons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button Base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Click.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Credits Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_no_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple linear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana linear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueberry - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueberry linear - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop linear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck linear - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ladybug - Blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ladybug - Colored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rose - Blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rose - Colored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun - New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun linear - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whale - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whale linear - new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amethyst - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amethyst - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basketball - colored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basketball - line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrot - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrot - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frog - Blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frog - Colored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grapes - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grapes - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grass - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grass - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lettuce - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lettuce - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mixing Tool - Background FIll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mixing Tool - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purple Splat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violet - Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violet - Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color Wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color Wheel Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle Outlines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIll1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fill2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First Fill Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First Fill Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\First Fill Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outcome Fill Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outcome Fill Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outcome Fill Purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outcome Fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Second Fill Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Second Fill Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Second Fill Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReachMyRainbow_Title.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReachMyRainbow_ColoringPage2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReachMyRainbow_ColoringPages.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReachMyRainbow_Credits-Options.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReachMyRainbow_Lessons.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
