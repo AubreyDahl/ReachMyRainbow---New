@@ -39,7 +39,7 @@
             this.ButtonPlay.Font = new System.Drawing.Font("Juice ITC", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonPlay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
             this.ButtonPlay.Image = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
-            this.ButtonPlay.Location = new System.Drawing.Point(201, 555);
+            this.ButtonPlay.Location = new System.Drawing.Point(335, 538);
             this.ButtonPlay.Name = "ButtonPlay";
             this.ButtonPlay.Size = new System.Drawing.Size(237, 133);
             this.ButtonPlay.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.ButtonCredits.Font = new System.Drawing.Font("Juice ITC", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonCredits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
             this.ButtonCredits.Image = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
-            this.ButtonCredits.Location = new System.Drawing.Point(605, 555);
+            this.ButtonCredits.Location = new System.Drawing.Point(739, 538);
             this.ButtonCredits.Name = "ButtonCredits";
             this.ButtonCredits.Size = new System.Drawing.Size(237, 133);
             this.ButtonCredits.TabIndex = 1;
@@ -65,7 +65,7 @@
             this.ButtonOptions.Font = new System.Drawing.Font("Juice ITC", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonOptions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
             this.ButtonOptions.Image = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
-            this.ButtonOptions.Location = new System.Drawing.Point(992, 555);
+            this.ButtonOptions.Location = new System.Drawing.Point(1126, 538);
             this.ButtonOptions.Name = "ButtonOptions";
             this.ButtonOptions.Size = new System.Drawing.Size(237, 133);
             this.ButtonOptions.TabIndex = 2;
@@ -78,7 +78,7 @@
             this.ButtonQuit.Font = new System.Drawing.Font("Juice ITC", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonQuit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
             this.ButtonQuit.Image = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
-            this.ButtonQuit.Location = new System.Drawing.Point(1431, 555);
+            this.ButtonQuit.Location = new System.Drawing.Point(1565, 538);
             this.ButtonQuit.Name = "ButtonQuit";
             this.ButtonQuit.Size = new System.Drawing.Size(237, 133);
             this.ButtonQuit.TabIndex = 3;

@@ -11,27 +11,28 @@ using System.Media;
 
 namespace ReachMyRainbow___New
 {
-    public partial class FormCredits : Form
+    public partial class FormQuitPopUp : Form
     {
-        public FormCredits()
+        public FormQuitPopUp()
         {
             InitializeComponent();
         }
 
-        private void ButtonBackCredits_Click(object sender, EventArgs e)
+        private void buttonQuitNo_Click(object sender, EventArgs e)
         {
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
             soundPlayer.Play();
-            this.Hide();
 
-            FormStartMenu formStartMenu = new FormStartMenu();
-            formStartMenu.ShowDialog();
+            FormQuitPopUp formQuitPopUp = new FormQuitPopUp();
+            this.Close();
         }
 
-        private void FormCredits_Load(object sender, EventArgs e)
+        private void buttonQuitYes_Click(object sender, EventArgs e)
         {
-            SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.ReachMyRainbow_Credits_Options);
-            soundPlayer.PlayLooping();
+            SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
+            soundPlayer.Play();
+
+            System.Windows.Forms.Application.ExitThread(); 
         }
     }
 }

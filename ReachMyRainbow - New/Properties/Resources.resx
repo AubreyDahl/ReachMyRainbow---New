@@ -229,6 +229,9 @@
   <data name="Ladybug___Colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ladybug - Colored.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LessonSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LessonSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Lettuce___Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lettuce - Color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -246,6 +249,9 @@
   </data>
   <data name="Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Options .jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Options_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Options Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Orange_Splat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orange Splat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -321,6 +327,9 @@
   </data>
   <data name="Violet___Line" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Violet - Line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome_to_Reach_My_Rainbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome to Reach My Rainbow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="whale_linear___new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\whale linear - new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

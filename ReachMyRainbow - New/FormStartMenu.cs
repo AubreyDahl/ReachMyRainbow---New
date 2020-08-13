@@ -16,25 +16,41 @@ namespace ReachMyRainbow___New
         public FormStartMenu()
         {
             InitializeComponent();
+            SoundPlayer soundplayer = new SoundPlayer(Properties.Resources.ReachMyRainbow_Title);
+            soundplayer.PlayLooping();
+
+            
         }
 
         private void ButtonOptions_Click(object sender, EventArgs e)
         {
+           
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
-            soundPlayer.Play(); 
+            soundPlayer.Play();
+            this.Hide();
+
+            FormOptions formOptions = new FormOptions();
+            formOptions.ShowDialog();
+            this.Close();
         }
 
         private void ButtonPlay_Click(object sender, EventArgs e)
 
         {   SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
             soundPlayer.Play();
-            ButtonQuit.Enabled = true;
+            this.Hide();
+
+            FormLessonSelect formLessonSelect = new FormLessonSelect();
+            formLessonSelect.ShowDialog();
         }
 
         private void ButtonQuit_Click(object sender, EventArgs e)
         {
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
             soundPlayer.Play();
+
+            FormQuitPopUp formQuitPopUp = new FormQuitPopUp();
+            formQuitPopUp.ShowDialog();
 
         }
         /// <summary>
@@ -47,14 +63,15 @@ namespace ReachMyRainbow___New
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
             soundPlayer.Play();
             this.Hide();
+
             FormCredits formCredits = new FormCredits();
             formCredits.ShowDialog();
         }
 
         private void FormStartMenu_Load(object sender, EventArgs e)
         {
-            //Function for NEXTbutton  ButtonQuit.Visible = false;        
-            ButtonQuit.Enabled = false;
+          
+            
         }
     }
 }

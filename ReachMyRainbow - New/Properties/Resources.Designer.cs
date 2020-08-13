@@ -432,6 +432,16 @@ namespace ReachMyRainbow___New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LessonSelect {
+            get {
+                object obj = ResourceManager.GetObject("LessonSelect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lettuce___Color {
             get {
                 object obj = ResourceManager.GetObject("Lettuce___Color", resourceCulture);
@@ -485,6 +495,16 @@ namespace ReachMyRainbow___New.Properties {
         internal static System.Drawing.Bitmap Options {
             get {
                 object obj = ResourceManager.GetObject("Options", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Options_Background {
+            get {
+                object obj = ResourceManager.GetObject("Options_Background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -731,6 +751,15 @@ namespace ReachMyRainbow___New.Properties {
             get {
                 object obj = ResourceManager.GetObject("Violet___Line", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Welcome_to_Reach_My_Rainbow {
+            get {
+                return ResourceManager.GetStream("Welcome_to_Reach_My_Rainbow", resourceCulture);
             }
         }
         

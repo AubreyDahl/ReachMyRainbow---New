@@ -34,118 +34,105 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.buttonBackCredits = new System.Windows.Forms.Button();
+            this.ButtonBackCredits = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox1.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox1.Location = new System.Drawing.Point(336, 213);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox1.Location = new System.Drawing.Point(735, 224);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1291, 68);
+            this.textBox1.Size = new System.Drawing.Size(581, 55);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Project Lead - Aubrey Dahl";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox2.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox2.Location = new System.Drawing.Point(336, 330);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox2.Location = new System.Drawing.Point(490, 305);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1291, 68);
+            this.textBox2.Size = new System.Drawing.Size(1074, 55);
             this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "Programmers - David Schafers, Amanda Grose";
+            this.textBox2.Text = "Programmers - David Schafers, Amanda Grose, Aubrey Dahl";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox3.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox3.Location = new System.Drawing.Point(336, 451);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox3.Location = new System.Drawing.Point(647, 474);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(1294, 68);
+            this.textBox3.Size = new System.Drawing.Size(792, 55);
             this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Artists - Aubrey Dahl, Jaime Zamora, Amanda Grose";
+            this.textBox3.Text = "Designers - Aubrey Dahl, Samantha Jaros";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox4.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox4.Location = new System.Drawing.Point(341, 569);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox4.Location = new System.Drawing.Point(580, 550);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1286, 68);
+            this.textBox4.Size = new System.Drawing.Size(949, 55);
             this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "Designers - Aubrey Dahl, Samantha Jaros";
+            this.textBox4.Text = "Sound Designers - Christopher Parness, Aubrey Dahl";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox5.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox5.Location = new System.Drawing.Point(343, 694);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox5.Location = new System.Drawing.Point(711, 624);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(1275, 68);
+            this.textBox5.Size = new System.Drawing.Size(640, 55);
             this.textBox5.TabIndex = 4;
-            this.textBox5.Text = "Sound Designer - Christopher Parness";
+            this.textBox5.Text = "Voice Actor - Allison Tyrsdottir";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox6
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
+            this.textBox6.Font = new System.Drawing.Font("Monotype Corsiva", 25.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.textBox6.Location = new System.Drawing.Point(345, 816);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
+            this.textBox6.Location = new System.Drawing.Point(490, 393);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(1282, 68);
+            this.textBox6.Size = new System.Drawing.Size(1090, 55);
             this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "Voice Actor - Allison Tyrsdottir";
+            this.textBox6.Text = "Artists - Aubrey Dahl, Jaime Zamora, Amanda Grose";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // buttonBackCredits
+            // ButtonBackCredits
             // 
-            this.buttonBackCredits.BackgroundImage = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
-            this.buttonBackCredits.Font = new System.Drawing.Font("Juice ITC", 45F);
-            this.buttonBackCredits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
-            this.buttonBackCredits.Location = new System.Drawing.Point(12, 881);
-            this.buttonBackCredits.Name = "buttonBackCredits";
-            this.buttonBackCredits.Size = new System.Drawing.Size(277, 140);
-            this.buttonBackCredits.TabIndex = 6;
-            this.buttonBackCredits.Text = "Back";
-            this.buttonBackCredits.UseVisualStyleBackColor = true;
-            this.buttonBackCredits.Click += new System.EventHandler(this.button1_Click);
+            this.ButtonBackCredits.Font = new System.Drawing.Font("Juice ITC", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonBackCredits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(239)))));
+            this.ButtonBackCredits.Image = global::ReachMyRainbow___New.Properties.Resources.Button_Base;
+            this.ButtonBackCredits.Location = new System.Drawing.Point(12, 888);
+            this.ButtonBackCredits.Name = "ButtonBackCredits";
+            this.ButtonBackCredits.Size = new System.Drawing.Size(237, 133);
+            this.ButtonBackCredits.TabIndex = 6;
+            this.ButtonBackCredits.Text = "Back";
+            this.ButtonBackCredits.UseVisualStyleBackColor = true;
+            this.ButtonBackCredits.Click += new System.EventHandler(this.ButtonBackCredits_Click);
             // 
             // FormCredits
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(30F, 72F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ReachMyRainbow___New.Properties.Resources.Credits_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
-            this.Controls.Add(this.buttonBackCredits);
+            this.Controls.Add(this.ButtonBackCredits);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic);
-            this.Margin = new System.Windows.Forms.Padding(11, 13, 11, 13);
             this.Name = "FormCredits";
-            this.Text = "Form2";
+            this.Text = "FormCredits";
+            this.Load += new System.EventHandler(this.FormCredits_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +146,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button buttonBackCredits;
+        private System.Windows.Forms.Button ButtonBackCredits;
     }
 }

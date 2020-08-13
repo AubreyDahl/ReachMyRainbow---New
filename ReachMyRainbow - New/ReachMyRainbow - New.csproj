@@ -46,23 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormCredits.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCredits.Designer.cs">
       <DependentUpon>FormCredits.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="FormLessonSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="FormLessonSelect.Designer.cs">
+      <DependentUpon>FormLessonSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOptions.Designer.cs">
+      <DependentUpon>FormOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQuitPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQuitPopUp.Designer.cs">
+      <DependentUpon>FormQuitPopUp.cs</DependentUpon>
     </Compile>
     <Compile Include="FormStartMenu.cs">
       <SubType>Form</SubType>
@@ -70,16 +76,20 @@
     <Compile Include="FormStartMenu.Designer.cs">
       <DependentUpon>FormStartMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="formStartMenu\ShowDialogue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormCredits.resx">
       <DependentUpon>FormCredits.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="FormLessonSelect.resx">
+      <DependentUpon>FormLessonSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOptions.resx">
+      <DependentUpon>FormOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQuitPopUp.resx">
+      <DependentUpon>FormQuitPopUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStartMenu.resx">
       <DependentUpon>FormStartMenu.cs</DependentUpon>
@@ -322,6 +332,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ReachMyRainbow_Lessons.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome to Reach My Rainbow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LessonSelect.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

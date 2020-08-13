@@ -17,6 +17,6 @@ namespace ReachMyRainbow___New
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormStartMenu());
-        }
+                    }
     }
 }
