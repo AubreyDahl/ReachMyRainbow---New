@@ -37,7 +37,10 @@ namespace ReachMyRainbow___New
         private void buttonLevel1Select_Click(object sender, EventArgs e)
         {
             SoundPlayer soundPlayer = new SoundPlayer(Properties.Resources.Button_Click);
-            soundPlayer.Play(); 
+            soundPlayer.Play();
+
+            SoundPlayer soundPlayer2 = new SoundPlayer(Properties.Resources.ReachMyRainbow_Credits_Options);
+            soundPlayer2.Play();
         }
     }
 }

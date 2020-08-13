@@ -15,9 +15,9 @@ namespace ReachMyRainbow___New
     {
         public FormStartMenu()
         {
-            InitializeComponent();
-            SoundPlayer soundplayer = new SoundPlayer(Properties.Resources.ReachMyRainbow_Title);
-            soundplayer.PlayLooping();
+          InitializeComponent();
+            //SoundPlayer soundplayer = new SoundPlayer(Properties.Resources.ReachMyRainbow_Title);
+            //soundplayer.PlayLooping();
 
             
         }
@@ -70,8 +70,10 @@ namespace ReachMyRainbow___New
 
         private void FormStartMenu_Load(object sender, EventArgs e)
         {
-          
-            
+            SoundPlayer soundplayer = new SoundPlayer(Properties.Resources.ReachMyRainbow_Title);
+            soundplayer.PlayLooping();
+
+
         }
     }
 }

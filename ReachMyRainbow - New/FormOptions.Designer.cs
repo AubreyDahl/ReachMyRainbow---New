@@ -49,7 +49,7 @@
             // 
             this.ComingSoon.Font = new System.Drawing.Font("Monotype Corsiva", 100F, System.Drawing.FontStyle.Italic);
             this.ComingSoon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(9)))), ((int)(((byte)(34)))));
-            this.ComingSoon.Location = new System.Drawing.Point(543, 298);
+            this.ComingSoon.Location = new System.Drawing.Point(600, 291);
             this.ComingSoon.Name = "ComingSoon";
             this.ComingSoon.Size = new System.Drawing.Size(902, 195);
             this.ComingSoon.TabIndex = 8;
